@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+.navbar {
+  position: fixed; 
+  top: 0;          
+  width: 100%;     
+  z-index: 1000;   
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url(FOTO/Honda\ FCX\ Clarity\ -\ the\ Revolutionary\ Car\ that\ will\ Change\ the\ Landscape\ of\ the\ Car\ Industry.jpg) center/cover no-repeat;
+  color: white;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.card-custom {
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.sidebar-card {
+  border-radius: 15px;
+}
+
+.footer {
+  background: #1c1c1c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.icon-box {
+  background-color: #e7f1ff;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 22px;
+  color: #0d6efd;
+}
+</style>
+</head>
+<body>
+    <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   <div class="container">
+    <a class="navbar-brand d-flex align-items-center text-light fw-bold" href="#">
+      <img src="FOTO2/logo-web-1-removebg-preview.png" alt="Logo SMKN Tengaran" width="40" class="me-2">
+      
+    </a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="tugas2.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="tugas2.html">Visi Misi</a></li>
+        <li class="nav-item"><a class="nav-link" href="tugas2.html">Data Siswa</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Jurusan</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#PPLG">PPLG</a></li>
+            <li><a class="dropdown-item" href="#TKJ">TKJ</a></li>
+            <li><a class="dropdown-item" href="#BUSANA">BUSANA</a></li>
+            <li><a class="dropdown-item" href="#KULINER">KULINER</a></li>
+            <li><a class="dropdown-item" href="#TSM">TSM</a></li>
+            <li><a class="dropdown-item" href="#TKR">TKR</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1 class="fw-bold">TKR</h1>
+    <p>
+      Jurusan yang membekali siswa dalam perawatan dan oerbaikan kendaraan ringan.
+    </p>
+  </div>
+</section>
+
+<!-- CONTENT -->
+<div class="container my-5">
+  <div class="row g-4">
+
+    <!-- KIRI -->
+    <div class="col-lg-8">
+      <div class="card p-4 card-custom">
+
+        <h3 class="fw-bold">Membangun Karir di Dunia Otomotif.</h3>
+        <p>
+         Teknik Kendaraan Ringan (TKR) mempelajari perawatan, perbaikan,
+         dan sistem kerja kendaraan mobil. Siswa dibekali keterampilan
+         diagnosis kerusakan, servis mesin, hingga teknologi otomotif modern.
+        </p>
+
+        <!-- FITUR -->
+        <div class="row mt-4">
+
+  <div class="col-md-6 d-flex gap-3">
+  <div class="icon-box">
+    <i class="bi bi-car-front-fill"></i>
+  </div>
+  <div>
+    <h6 class="fw-bold mb-0">Mesin Kendaraan</h6>
+    <small>Mempelajari sistem mesin dan performa mobil.</small>
+  </div>
+</div>
+
+<div class="col-md-6 d-flex gap-3">
+  <div class="icon-box">
+    <i class="bi bi-tools"></i>
+  </div>
+  <div>
+    <h6 class="fw-bold mb-0">Perbaikan & Servis</h6>
+    <small>Teknik perawatan dan perbaikan kendaraan.</small>
+  </div>
+</div>
+
+</div>
+
+        <hr class="my-4">
+
+        <!-- FASILITAS -->
+        <h6 class="fw-semibold mb-3">Fasilitas Unggulan</h6>
+
+<ul class="list-group list-group-flush">
+
+<li class="list-group-item d-flex justify-content-between">
+  <span><i class="bi bi-gear me-2 text-danger"></i> Bengkel Otomotif</span>
+  <span class="badge bg-danger">Lengkap</span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between">
+  <span><i class="bi bi-car-front me-2 text-danger"></i> Mobil Praktik</span>
+  <span class="badge bg-danger">Tersedia</span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between">
+  <span><i class="bi bi-patch-check me-2 text-danger"></i> Sertifikasi Industri</span>
+  <span class="badge bg-danger">Ada</span>
+</li>
+
+</ul>
+
+</div>
+</div>
+    <!-- KANAN (SIDEBAR) -->
+    <div class="col-lg-4">
+
+      <!-- STATUS -->
+      <div class="card sidebar-card mb-4">
+        <div class="card-header bg-dark text-white text-center fw-bold">
+          Status Pendaftaran
+        </div>
+
+        <div class="card-body">
+          <p class="mb-1 fw-bold">Kuota Terisi <span class="float-end">97%</span></p>
+
+          <div class="progress mb-3" style="height:8px;">
+            <div class="progress-bar progress-bar-striped" style="width:90%"></div>
+          </div>
+
+          <button class="btn btn-primary w-100 mb-2 ">DAFTAR SEKARANG</button>
+          <button class="btn btn-light w-100">← Kembali</button>
+        </div>
+      </div>
+
+      <!-- TESTIMONI -->
+      <div class="card sidebar-card">
+        <img src="FOTO2/download (23).jpg" class="card-img-top">
+
+        <div class="card-body">
+          <p class="small">
+            "Belajar TKR membuat saya siap bekerja di bengkel otomotif."
+          </p>
+          <b>- Abimana, Alumni 2022</b>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  © 2026 SMKN TENGARAN. Seluruh Hak Cipta Dilindungi.
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
